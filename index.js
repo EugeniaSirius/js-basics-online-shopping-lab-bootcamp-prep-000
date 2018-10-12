@@ -53,7 +53,8 @@ function placeOrder(cardNumber) {
   for (let i=0; i<cart.length; i--) {
    cart.shift()
    cart=[]
-  }  return cart
+   return cart
+  }  
  return 'Sorry, we don\'t have a credit card on file for you.' 
 }
 
