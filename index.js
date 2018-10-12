@@ -43,7 +43,7 @@ for (let i=0; i<cart.length; i++)  {
     cart.splice([i],1)
     return cart
   }
-}
+} return 'That item is not in your cart.'
 }
 
 function placeOrder(cardNumber) {
