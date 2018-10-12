@@ -52,7 +52,7 @@ function placeOrder(cardNumber) {
   }
    for (let i=0; i<cart.length; i--) {
     
-      cart.pop()
+      cart.shift()
      
       
 }  return 'Sorry, we don\'t have a credit card on file for you.'
