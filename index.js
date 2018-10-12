@@ -34,8 +34,8 @@ function total() {
  var totalPrice=0
  for (let i=0; i<getCart().length; i++)  {
   totalPrice=getCart()[0].itemPrice+getCart()[i].itemPrice
- } 
-}return totalPrice
+ } return totalPrice
+}
 
 function removeFromCart(item) {
 // write your code here
