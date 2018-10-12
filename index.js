@@ -47,5 +47,7 @@ for (let i=0; i<cart.length; i++)  {
 }
 
 function placeOrder(cardNumber) {
-  // write your code here
+  if (cardNumber)  {
+    
+  }
 }
