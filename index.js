@@ -54,6 +54,8 @@ function placeOrder(cardNumber) {
    cart.shift()
    cart=[]
   }  return 'Sorry, we don\'t have a credit card on file for you.'
+  
 }
+
 
 
