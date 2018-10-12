@@ -52,6 +52,6 @@ function placeOrder(cardNumber) {
   }
    for (let i=0; i<cart.length; i--) {
       cart.pop()
-}  
-}return 'Sorry, we don\'t have a credit card on file for you.'
+}  return 'Sorry, we don\'t have a credit card on file for you.'
+}
 
