@@ -48,7 +48,7 @@ for (let i=0; i<cart.length; i++)  {
 
 function placeOrder(cardNumber) {
     if (cardNumber)  {
-  var t=`Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`
+  `Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`
   cart=[]
   return cart
 } 
