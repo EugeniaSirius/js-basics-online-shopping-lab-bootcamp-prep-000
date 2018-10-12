@@ -51,9 +51,9 @@ function placeOrder(cardNumber) {
     return `Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`
   }
    for (let i=0; i<cart.length; i--) {
-     cart=[]
+    
       cart.pop()
-     return cart 
+     
       
 }  return 'Sorry, we don\'t have a credit card on file for you.'
 }
